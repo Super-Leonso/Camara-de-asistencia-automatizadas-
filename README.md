@@ -1,3 +1,19 @@
+# Sistema de Reconocimiento Facial y Registro de Asistencia
+
+Este proyecto utiliza OpenCV y face_recognition para capturar imágenes desde una cámara, reconocer caras y registrar la asistencia en una base de datos SQLite.
+
+## Requisitos
+
+- Python 3.x
+- OpenCV
+- face_recognition
+- sqlite3
+
+Puedes instalar las dependencias necesarias utilizando pip:
+
+```sh
+pip install opencv-python face_recognition
+
 import cv2
 import face_recognition
 import sqlite3
